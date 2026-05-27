@@ -1,0 +1,107 @@
+# Xcode
+#
+# gitignore contributors: remember to update the .gitignore file based on which files/directories
+# you want to ignore, likely you'll want to ignore all files in the Xcode build directory and all
+# files that reference user settings.
+#
+# Xcode files
+*.pbxproj
+!*.pbxproj/*.pbxproj
+*.xcworkspace
+!*.xcworkspace/contents.xcworkspacedata
+xcuserdata/
+*.xcuserdatad
+*.xcodeproj/xcshareddata/xcschemes/*.xcscheme
+
+# Build files and directories
+build/
+Build/
+DerivedData/
+*.ipa
+*.dSYM/
+.build/
+
+# Packages
+.swiftpm
+.package.resolved
+Package.resolved
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/
+
+# SPM
+.swiftpm/
+
+# Xcode build output
+*.app
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift/Objective-C/C++
+*.o
+*.a
+*.so
+*.dylib
+*.swiftmodule/
+*.swiftdeps/
+*.swiftinterface
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Test coverage
+*.profraw
+*.profdata
+coverage/
+.coverage
+
+# Environment
+.env
+.env.local
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Certificates and profiles
+*.mobileprovision
+*.cer
+*.p8
+*.p12
+*.pfx
+
+# Documentation
+docs/build/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# OS files
+.DS_Store
+.AppleDouble
+.LSOverride
+*.swp
+*.swo
+*~
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Misc
+*.log
